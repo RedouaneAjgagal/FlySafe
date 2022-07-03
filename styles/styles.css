@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fffbf4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Jost', sans-serif;
+    color: #3b3b3b;
+}
+/* Bootstrap */
+.container-fluid{
+    padding: 1% 10%;
+}
+.btn{
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    transition: none;
+}
+/* brand logo */
+.flysafe-logo{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #874356;
+}
+.flysafe-logo:hover{
+    color: #874356;
+}
+.fly{
+    font-weight: 600;
+}
+
+/* Navigation links */
+.items{
+    padding-right: 0;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+.items:hover a{
+    color: #A10035;
+}
+.nav-link{
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+/* Navigation btn */
+.login-btn{
+    text-decoration: none;
+    color: #874356;
+    font-weight: 500;
+}
+.login-btn:hover{
+    color: #874356;
+    text-decoration: underline;
+}
+.signup-btn{
+    background-color: #874356;
+    border: #874356;
+    color: #fff;
+    font-weight: 500;
+}
+.signup-btn:hover{
+    background-color: #881b3f;
+}
+/* Search bar */
+.search-form{
+    margin: 25px auto;
+
+}
+.search-category{
+    border: 1px solid #ebebeb;
+    border-color: #cccccc;
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.search-btn{
+    border-radius: 30px;
+    padding: 0 20px;
+}
+/* big heading */
+.big-head{
+    padding: 25px 0;
+    font-weight: 700;
+    font-size: 3.4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.and-red{
+    color: #874356;
+}
+
+/* top content */
+.top-content{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+.left-side-heading{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 2.7rem;
+    margin-bottom: 25px;
+}
+.left-side-text{
+    font-size: 1.1rem;
+    color: #686868;
+    margin-bottom: 25px;
+    width: 85%;
+}
+.left-side-btn{
+    background-color: #874356;
+    border-color: #874356;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+.left-side-btn:hover{
+    background-color: #881b3f;
+    border-color: #881b3f;
+    color: #fff;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+}
+.img-mobile{
+    display: none;
+}
+/* category links */
+#category{
+    margin-top: 40px;
+}
+.category-nav{
+    margin: 30px auto;
+    padding: 20px 20px 20px 0;
+}
+.category-nav li{
+    margin-right: 50px;
+    display: inline-block;
+}
+.category-nav li a{
+    font-weight: 500;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: .3s;
+    
+}
+.category-item-active a{
+    background-color: #3f3737;
+    border-radius: 30px;
+    color: #fff;
+}
+.category-item a:hover{
+    background-color: #3f3737;
+    border-radius: 30px;
+    color: #fff;
+}
+/* category cards */
+.card-content{
+    padding: 10px;
+}
+.card-content img{
+    border-radius: 5px;
+    width: 100%;
+}
+.card-content h3{
+    padding: 15px 0;
+}
+.card-description p{
+    color: #6e6e6e;
+}
+.card-description a {
+    margin-right: 10px;
+}
+.card-description a:hover{
+    color: #e45c80;
+}
+/* about */
+#about{
+    background-image: url('https: //redouaneajgagal.github.io/FlySafe/images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+    margin: 120px auto;
+}
+#about h2{
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+.about-content{
+    padding: 50px;
+    padding-left: 10px;
+}
+.about-content i{
+    color: #874356;
+    font-size: 2.5rem;
+    margin: 10px auto 0;
+}
+.about-content h3{
+    padding: 25px 0;
+}
+.about-content p{
+    line-height: 2;
+}
+.about-images img{
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+.about-img-right{
+    float: right;
+}
+/* press */
+.press-content{
+    background-color: #fff9f0;
+    border: solid 1px #eeeeee;
+    border-radius: 10px;
+    text-align: center;
+}
+#press img{
+    padding: 25px;
+    margin: 0 40px;
+    width: 13%;
+}
+/* Call to action */
+.cta-content{
+    text-align: center;
+    width: 70%;
+    margin: 25px auto;
+}
+.cta-content h2{
+    font-weight: 500;
+    font-size: 2.7rem;
+}
+.cta-content p{
+    margin: 25px 0 40px;
+}
+.cta-btn{
+    background-color: #874356;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 10px 20px; 
+    transition: .1s;
+    text-decoration: none;
+}
+.cta-btn:hover{
+    color: #fff;
+    background-color: #881b3f;
+}
+.cta-outline-btn{
+    border: solid 1px #874356;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: .1s;
+    text-decoration: none;
+}
+.cta-outline-btn:hover{
+    background-color: #874356;
+    color: #fff;
+}
+/* Footer */
+#footer{
+    background-color: #874356;
+    color: #c2c2c2;
+    margin: 40px auto 0;
+}
+.flysafe-logo-footer{
+    color: #fffbf4;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+.flysafe-logo-footer:hover{
+    color: #fffbf4;
+}
+.title-text{
+    line-height: 1.8;
+    margin: 5px 0 15px;
+}
+.footer-icon{
+    color: #fffbf4;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.footer-icon:hover{
+    color: #fcefde;
+}
+.footer-all{
+    display: flex;
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+}
+.footer-links{
+    margin: auto 60px;
+    height: 100%;
+}
+.footer-title{
+    color: #fffbf4;
+}
+.footer-nav li:hover{
+    text-decoration: underline;
+}
+
+/* Media query */
+@media (max-width:991px) {
+    .big-head {
+            font-size: 2.7rem;
+        }
+    .img-mobile{
+        display: flex;
+        margin: auto;
+    }
+    .img-desktop{
+        display: none;
+    }
+    .items{
+        padding: 5px 0;
+    }
+    .category-nav li {
+            margin-right: 20px;
+            display: inline-block;
+        }
+    .card-content{
+        margin-bottom: 25px;
+    }
+    #press img {
+        padding: 15px;
+        margin: 0 5px;
+        width: 20%;
+    }
+    .footer-content {
+        justify-content: left;
+        margin-top: 25px;
+    }
+    .footer-links {  
+        margin: auto 50px auto 0;
+    }
+}
+@media (max-width:784px) {
+    .category-nav li {
+            margin-right: 5px;
+            display: inline-block;
+        }
+    
+        .category-nav li a {
+            padding: 10px 15px;
+        }
+}
+@media (max-width:575px) {
+    .category-nav{
+        margin: 30px auto 0;
+    }
+    .category-nav li {
+            padding: 20px 0;
+            display: block;
+        }
+        .category-nav li a {
+            padding: 15px 30px;
+        }
+    #press img {
+        padding: 5px;
+        margin: 0 5px;
+        width: 20%;
+    }
+    .cta-content {
+        text-align: center;
+        width: 100%;
+        margin: 25px auto;
+    }
+    .footer-content {
+        display: block;
+        }
+    .footer-nav{
+        margin-bottom: 25px;
+    }
+    
+    .footer-links {
+        margin: auto 0;
+        height: auto;
+        }
+    .footer-all{
+        padding-bottom: 0;
+    }
+}

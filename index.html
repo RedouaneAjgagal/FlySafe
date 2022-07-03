@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website title -->
+    <title>FlySafe | Everywhere & Anywhere</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4ecb9281eb.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Google fonts | Jost and Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <!-- Top Container -->
+    <section class="container-fluid" id="first-impression">
+
+        <!-- Navbar N1 -->
+        <nav class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand flysafe-logo"><span class="fly">Fly</span>Safe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto nav-list">
+                    <li class="nav-item items">
+                        <a href="./index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item items">
+                        <a href="#category" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item items">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item items">
+                        <a href="#cta" class="nav-link">How it Work</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="#" class="btn btn-link login-btn">LOGIN</a>
+                    <a href="#" class="btn btn-dark signup-btn">SIGN UP</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar N2 | Search Bar -->
+        <form action="" class="search-form">
+            <div class="input-group">
+                <select class="form-select search-category" aria-label="Default select example">
+                    <option selected>Countries</option>
+                    <option value="1">Australia</option>
+                    <option value="2">Bahrain</option>
+                    <option value="3">Belgium</option>
+                    <option value="4">Brazil</option>
+                    <option value="5">China</option>
+                    <option value="6">Egypt</option>
+                    <option value="7">Germany</option>
+                    <option value="8">India</option>
+                    <option value="9">Italy</option>
+                    <option value="10">Japan</option>
+                    <option value="11">Kuwait</option>
+                    <option value="12">Luxembourg</option>
+                    <option value="13">Morocco</option>
+                </select>
+                <select class="form-select search-category" aria-label="Default select example">
+                    <option selected>Cities</option>
+                    <option value="1">Australia</option>
+                    <option value="2">Bahrain</option>
+                    <option value="3">Belgium</option>
+                    <option value="4">Brazil</option>
+                    <option value="5">China</option>
+                </select>
+                <select class="form-select search-category" aria-label="Default select example">
+                    <option  selected >Categories</option>
+                    <option value="1">Australia</option>
+                    <option value="2">Bahrain</option>
+                    <option value="3">Belgium</option>
+                    <option value="4">Brazil</option>
+                    <option value="5">China</option>
+                </select>
+                <button type="submit" class="input-group-text search-btn">Go</button>
+            </div>
+        </form>
+        <h1 class="big-head">Travel Safe. Everywhere <span class="and-red">&</span> Anywhere</h1>
+        <img class="img-fluid img-mobile" src="https://cdn-icons-png.flaticon.com/512/4681/4681594.png" alt="">
+        <div class="row top-content">
+            <div class="col-lg-6 left-side">
+                <h2 class="left-side-heading">No more troubles traveling alone! Get your Suitcase and let's travel the world.</h2>
+                <p class="left-side-text">Who among us has not had problems traveling? Especially when we talk about getting a driver to the place we want.. Well with FlySafe that's from the past! </p>
+                <a href="#" class="btn left-side-btn">GET STARTED</a>
+            </div>
+            <div class="col-lg-6 right-side">
+                <img class="img-fluid img-desktop" src="https://cdn-icons-png.flaticon.com/512/4681/4681594.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Category -->
+    <section class="container-fluid" id="category">
+        <div id="category-slide" class="carousel carousel-fade" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+                <!-- Category links -->
+                <div class="categories">
+                    <ul class="category-nav">
+                        <li class="category-item-active"><a href="#">Featured</a></li>
+                        <li class="category-item"><a href="#category-slide" data-bs-target="#category-slide" data-bs-slide="next">Services</a></li>
+                        <li class="category-item"><a href="#category-slide" data-bs-target="#category-slide" data-bs-slide="next">Transportation</a></li>
+                        <li class="category-item"><a href="#category-slide" data-bs-target="#category-slide" data-bs-slide="next">Media</a></li>
+                    </ul>
+                </div>
+                <!-- Category Cards -->
+                <div class="carousel-item active">
+                    <div class="row category-cards">
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-habi-dompil-2964163.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-jason-toevs-2033343.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-sam-kolder-2387871.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-trace-hudson-2535206.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row category-cards">
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-sam-kolder-2387871.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-trace-hudson-2535206.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-habi-dompil-2964163.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-jason-toevs-2033343.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row category-cards">
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-trace-hudson-2535206.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-sam-kolder-2387871.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-jason-toevs-2033343.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 category-border">
+                            <div class="card-content card">
+                                <img src="./images/pexels-habi-dompil-2964163.jpg" alt="">
+                                <h3>Where we land next week?</h3>
+                                <div class="card-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat.</p>
+                                    <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                                    <a href=""><i class="fa-solid fa-thumbs-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="container-fluid" id="about">
+        <h2>Get to know more about FlySafe</h2>
+        <div class="row">
+            <div class="col-lg-4 about-content">
+                <i class="fa-solid fa-circle-question"></i>
+                <h3>How FlySafe can exactly help you with your next travel?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime iusto pariatur maiores et! Quibusdam minima a pariatur impedit incidunt laboriosam numquam obcaecati odio animi eius, deserunt sunt fugit cum. Commodi tenetur maiores animi aspernatur cumque distinctio vitae omnis dignissimos!</p>
+            </div>
+            <div class="col-lg-4 about-content">
+                <i class="fa-solid fa-face-smile-beam"></i>
+                <h3>All what you need to start the journey with us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vero architecto, ea quidem repudiandae ullam, excepturi temporibus unde commodi illo maxime, quod voluptate atque quibusdam. Dolores totam cumque fugit ex?</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="about-images">
+                    <img src="./images/pexels-christina-morillo.jpg" alt="">
+                    <img class="about-img-right" src="./images/pexels-fauxels.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press -->
+    <section class="container-fluid" id="press">
+        <div class="press-content">
+            <img src="./images/coca-cola-in-bottles.svg" alt="">
+            <img src="./images/samsung.svg" alt="">
+            <img src="./images/fedex-express-6.svg" alt="">
+            <img src="./images/adidas-9.svg" alt="">
+        </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="container-fluid" id="cta">
+        <div class="cta-content">
+            <h2>Are you ready to be part of us?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quis illum fugiat ullam tenetur accusamus temporibus iusto quidem cumque? Dignissimos.</p>
+            <a href="#" class="cta-btn">Try it Free</a>
+            <a href="#" class="cta-outline-btn">Read More</a>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <section class="container-fluid" id="footer">
+        <div class="row footer-all">
+            <div class="col-lg-3">
+                <a href="#" class="navbar-brand flysafe-logo-footer"><span class="fly">Fly</span>Safe</a>
+                <p class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quos excepturi repudiandae voluptate rerum et minima laudantium distinctio nulla quasi.</p>
+                <a href="#" class="footer-icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="footer-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="footer-icon"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="col-lg-9 footer-content">
+                <div class="footer-links">
+                    <ul class="navbar-nav footer-nav">
+                        <h4 class="footer-title">Links</h4>
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">How it Work</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="navbar-nav footer-nav">
+                        <h4 class="footer-title">Categories</h4>
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Transportation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="navbar-nav footer-nav">
+                        <h4 class="footer-title">Information</h4>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Affiliate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">We are hiring</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
